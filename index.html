@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Portafolio Harold Andrade</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/lightgallery.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+	<header>
+<div class="container">
+<div class="menu">
+	<img class="menu-icon" src="img/iconmenu.png" alt="">
+	<nav>
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="#sobremi">Sobre mi</a></li>
+		<li><a href="#services">Servicios</a></li>
+		<li><a href="#contact">Contacto</a></li>
+	</ul>
+	</nav>
+</div>
+
+		<div class="titular">
+		<h1>Harold Andrade <br> <span>Maquetación y Desarrollo Web</span></h1>
+		
+	</div>
+</div>
+		
+	</header>
+
+
+
+	<main>
+
+		<section id="sobremi">
+			<div class="container">
+		
+
+		<h2>Sobre mí</h2>
+		<p>¡Hola! Soy Harold Andrade, Ingeniero de sistemas. Mis trabajos ejercidos han sido en áreas de tecnología de información, informática y computación. Desarrollo de habilidades en maquetación y desarrollo web.</p>
+
+		<h2 class="titlehabilidades">Mis Habilidades</h2>
+		<h4>HTML</h4>
+		<div class="chabilidades">
+			<div class="habilidades html"></div>
+		</div>
+
+		<h4>CSS</h4>
+		<div class="chabilidades">
+			<div class="habilidades css"></div>
+		</div>
+
+		<h4>PHP</h4>
+		<div class="chabilidades">
+			<div class="habilidades php"></div>
+		</div>
+
+		<h4>Jquery</h4>
+		<div class="chabilidades">
+			<div class="habilidades jquery"></div>
+		</div>
+
+	</div>
+
+		</section>
+
+
+		<section id="portfolio">
+			<div class="container">
+			
+				<h2>Mi Portafolio</h2>
+				<div class="cportafolio">
+
+
+<div id="lightgallery">
+	
+	<a href="img/pwebcoffee.png">
+        <img src="img/pwebcoffee.png">
+    </a>
+
+
+
+    <a href="img/pwebgym.png">
+        <img src="img/pwebgym.png">
+    </a>
+
+
+
+    <a class="office3" href="img/pwebvine.png">
+        <img src="img/pwebvine.png">
+    </a>
+
+
+
+    <a href="img/pwebyoga.png">
+        <img src="img/pwebyoga.png">
+    </a>   
+
+
+
+		</div> <!-- Cierre lightgallery-->
+	</div>
+</div>
+
+</section>
+
+
+<section id="services">
+	<div class="container">
+					
+	<h2>Servicios</h2>
+		<div class="cservices">
+		<div class="diviz servicio1">
+		<img src="img/servicio1.jpg" alt="">
+		</div>
+		<div class="divdr servicio1">
+			<h3>Maquetación y Desarrollo Web</h3>
+			<p>Me encargo de la <span class="spans1"> maquetación y desarrollo de tu sitio web</span> acorde a tu requerimiento, realizado en HTML5, CSS3, Jquery y un diseño responsive para adaptarlo a tu dispositivo móvil.</p>
+						</div>
+
+						
+	<div class="diviz servicio2">
+		<h3>Mantenimiento web y Soporte</h3>
+		<p>Mantengo y ofrezco la asesoria de que tu sitio trabaje correctamente garantizando el <span class="spans2"> desempeño y rendimiento.</span> Me aseguro de realizar las actualizaciones y modificaciones de tu contenido para los objetivos y necesidades de tu web.</p>
+		</div>
+		<div class="divdr servicio2">
+		<img src="img/servicio3.jpg" alt="">
+		</div>
+
+						
+	<div class="diviz servicio3">
+		<img src="img/servicio2.jpg" alt="">
+		</div>
+		<div class="divdr servicio3">
+		<h3>Posicionamiento SEO</h3>
+		<p>Aplico todas las técnicas y estrategias en <span class="spans3">motores de búsqueda (SEO)</span> para que tu pagina web se encuentre en las primeras posiciones.</p>
+	</div>
+
+
+</div>
+	</div>
+
+
+	</section>		
+
+
+
+	
+<section id="contact">
+	<div class="container">
+		
+		
+		<div class="ccontact">
+		<h2>Contáctame</h2>
+
+<div class="redes">
+	<a href="https://t.me/hrldjae" target="_blank"><img src="img/telegram3.png" alt="imagen de facebook"></a>
+
+	<a href="mailto:haroldandrade10@gmail.com?subject=prueba"><img src="img/gmail.png" alt="imagen de gmail"></a>
+
+</div>
+
+
+	</div>
+
+
+
+</div>
+</section>
+
+</main>
+
+<footer>
+	<p>© 2021 Harold Andrade | Maquetación y Desarrollo Web. Todos los derechos reservados.</p>
+</footer>
+
+
+
+
+
+</body>
+
+
+
+
+<script src="js/lightgallery.min.js"></script>
+	<script>
+    lightGallery(document.getElementById('lightgallery'));
+</script>
+
+<script type="text/javascript">
+	window.addEventListener("scroll", function(){
+		var menu = document.querySelector(".menu");
+		menu.classList.toggle("abajo",window.scrollY>0);
+	})
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script>
+
+        $(document).ready(function () {
+            $('.menu-icon').click(function () {
+                $('.menu nav').slideToggle();
+            })
+        })
+
+    </script>
+
+	
+</body>
+</html>
