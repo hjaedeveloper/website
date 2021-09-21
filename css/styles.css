@@ -349,7 +349,7 @@ footer p{
 
 /* RESPONSIVE */
 
-@media (min-width: 480px) and (max-width:800px){
+@media (max-width: 800px){
 	header .menu nav{
 		position: absolute;
 		top: 40px;
