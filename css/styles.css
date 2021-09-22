@@ -49,7 +49,7 @@ header ul{
 	color: #fff;
 	text-decoration: none;
 	font-size: 17px;
-	border-bottom: 1px solid #ff005ef5;
+	border-bottom: 1px solid #0250ffeb;
 
 }
 
@@ -62,18 +62,14 @@ header ul{
 }
 
 
-.html{width: 80%; background-color: #31CE31;}
-.css{width: 80%; background-color: #31CE31;}
-.php{width: 25%; background-color: #31CE31;}
-.jquery{width: 15%; background-color: #31CE31;}
+.html{width: 80%; background-color: #0043ff;} /*#31CE31*/
+.css{width: 80%; background-color: #0043ff;}
+.php{width: 30%; background-color: #0043ff;}
+.jquery{width: 20%; background-color: #0043ff;}
 
 
 header{
-	background:linear-gradient(
-		rgba(0,0,0,.6),
-		rgba(0,0,0,.4),
-		rgba(0,0,0,.9)		
-		 ),url('../img/pexels-veeterzy-303383.jpg');
+background: linear-gradient( rgb(0 0 0 / 65%), rgb(0 0 0 / 69%), rgb(0 0 0 / 95%) ),url('../img/pexels-veeterzy-303383.jpg');
 		 
 /*background: linear-gradient(180deg, rgba(20,21,24,0.9360119047619048) 0%, rgba(127,134,140,1) 71%, rgba(3,19,28,1) 90%),url('../img/pexels-junior-teixeira-2047905.jpg');*/
 
@@ -110,8 +106,9 @@ h3,p{
 }
 
 .titular span{
-	border-bottom: 1px solid #ff005ef5;
+	border-bottom: 1px solid #0250ffeb;
 	font-size: 20px;
+	color: #0043ff;
 }
 
 
@@ -119,8 +116,11 @@ h3,p{
 
 
 main {
-background: rgb(20,21,24);
+/*background: rgb(20,21,24);
 background: linear-gradient(275deg, rgba(20,21,24,0.9051995798319328) 0%, rgba(4,27,47,1) 25%, rgba(3,19,28,1) 90%); /*#232323*/
+
+background: linear-gradient( 
+-374deg, rgb(10 41 135 / 95%) 0%, rgb(14 17 21) 25%, rgb(11 18 23) 90%);
 	padding: 150px 0 0 0;
 }
 
@@ -135,7 +135,8 @@ background: linear-gradient(275deg, rgba(20,21,24,0.9051995798319328) 0%, rgba(4
 color: #fff;
 margin-bottom: 40px;
 font-size: 22px;
-
+border-bottom: 1px solid #0250ffeb;
+display: inline-block;
 }
 
 #sobremi .titlehabilidades{
@@ -225,11 +226,11 @@ a#lg-download {
 }
 
 #services .cservices div{
-	height: 431px;
+	height: 389px;
 }
 
 .spans1, .spans3, .spans2{
-	color: #02C57F;
+	color: #0043ff; /*#02C57F*/
 }
 
 .diviz{
@@ -289,7 +290,12 @@ font-size: 22px;
 #contact {
 	padding: 140px 0;
 	text-align: center;
-	background: linear-gradient(275deg, rgba(20,21,24,0.9051995798319328) 0%, rgba(4,27,47,1) 25%, rgba(3,19,28,1) 90%)};
+	background: linear-gradient( 
+275deg, rgb(6 15 41 / 91%) 0%, rgb(5 19 51) 25%, rgb(1 15 23) 90%);
+}
+
+
+/*background: linear-gradient(275deg, rgba(20,21,24,0.9051995798319328) 0%, rgba(4,27,47,1) 25%, rgba(3,19,28,1) 90%)};*/
 
     
     /*background: linear-gradient(
@@ -338,12 +344,13 @@ text-align: center;
 
 footer{
 	padding: 15px 0;
-	background-color: #000;
+	background-color: #031a57;
 }
 
 footer p{
-	color: #fff;
+	color: #ffffffab;
 	text-align: center;
+	font-weight: bold;
 }
 
 
