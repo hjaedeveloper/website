@@ -41,6 +41,13 @@ header ul{
 	display: flex;
 }
 
+header nav ul li:hover{
+	transform: scale(1.1);
+}
+
+header nav ul li:hover a{
+	border-bottom: 1px solid #fff;
+}
 
 
 
@@ -48,7 +55,7 @@ header ul{
 	margin-right: 35px;
 	color: #fff;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 18.5px;
 	border-bottom: 1px solid #0250ffeb;
 
 }
@@ -69,7 +76,7 @@ header ul{
 
 
 header{
-background: linear-gradient( rgb(0 0 0 / 65%), rgb(0 0 0 / 69%), rgb(0 0 0 / 95%) ),url('../img/pexels-veeterzy-303383.jpg');
+background: linear-gradient( rgb(0 0 0 / 10%), rgb(0 0 0 / 85%), rgb(0 0 0 / 70%) ),url('../img/desarrollo-header-copia.jpg');
 		 
 /*background: linear-gradient(180deg, rgba(20,21,24,0.9360119047619048) 0%, rgba(127,134,140,1) 71%, rgba(3,19,28,1) 90%),url('../img/pexels-junior-teixeira-2047905.jpg');*/
 
@@ -106,9 +113,9 @@ h3,p{
 }
 
 .titular span{
-	border-bottom: 1px solid #0250ffeb;
+	border-bottom: 1px solid #0043ffd6;
 	font-size: 20px;
-	color: #0043ff;
+	color: #0043ffd6;
 }
 
 
@@ -120,7 +127,7 @@ main {
 background: linear-gradient(275deg, rgba(20,21,24,0.9051995798319328) 0%, rgba(4,27,47,1) 25%, rgba(3,19,28,1) 90%); /*#232323*/
 
 background: linear-gradient( 
--374deg, rgb(10 41 135 / 95%) 0%, rgb(14 17 21) 25%, rgb(11 18 23) 90%);
+-374deg, rgb(10 41 135 / 95%) 0%, rgb(35 44 57) 25%, rgb(29 37 43) 90%);
 	padding: 150px 0 0 0;
 }
 
@@ -209,6 +216,8 @@ a#lg-download {
 	margin-top: 250px;
 	color: #fff;
 	font-size: 22px;
+	border-bottom: 1px solid #0250ffeb;
+	display: inline-block;
 
 }
 
@@ -252,8 +261,10 @@ a#lg-download {
 	color: #fff;
 margin-top: 150px;
 margin-bottom: 70px;
-margin-left: 28px;
+margin-left: 34px;
 font-size: 22px;
+border-bottom: 1px solid #0250ffeb;
+display: inline-block;
 
 }
 
@@ -291,7 +302,7 @@ font-size: 22px;
 	padding: 140px 0;
 	text-align: center;
 	background: linear-gradient( 
-275deg, rgb(6 15 41 / 91%) 0%, rgb(5 19 51) 25%, rgb(1 15 23) 90%);
+-374deg, rgb(6 13 35 / 95%) 0%, rgb(23 55 103) 25%, rgb(26 33 39) 90%);
 }
 
 
@@ -344,7 +355,7 @@ text-align: center;
 
 footer{
 	padding: 15px 0;
-	background-color: #031a57;
+	background-color: #08153b;
 }
 
 footer p{
