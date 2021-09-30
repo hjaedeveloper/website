@@ -34,7 +34,7 @@ li{
 	position: fixed;
 	transition: 0.7s;
 	top: 0;
-	right: 10px;
+	right: 25px;
 }
 
 header ul{
@@ -55,7 +55,7 @@ header nav ul li:hover a{
 	margin-right: 35px;
 	color: #fff;
 	text-decoration: none;
-	font-size: 18.5px;
+	font-size: 17px;
 	border-bottom: 1px solid #0250ffeb;
 
 }
@@ -76,11 +76,11 @@ header nav ul li:hover a{
 
 
 header{
-background: linear-gradient( rgb(0 0 0 / 10%), rgb(0 0 0 / 85%), rgb(0 0 0 / 70%) ),url('../img/desarrollo-header-copia.jpg');
+background: linear-gradient( rgb(0 0 0 / 0%), rgb(0 0 0 / 80%), rgb(0 0 0 / 90%) ),url('../img/desarrollo-header-copia.jpg');
 		 
 /*background: linear-gradient(180deg, rgba(20,21,24,0.9360119047619048) 0%, rgba(127,134,140,1) 71%, rgba(3,19,28,1) 90%),url('../img/pexels-junior-teixeira-2047905.jpg');*/
 
-	height: 150vh;
+	height: 140vh;
 	background-size: cover;
 	background-position: center;
 	padding: 1px 0;
@@ -89,7 +89,7 @@ background: linear-gradient( rgb(0 0 0 / 10%), rgb(0 0 0 / 85%), rgb(0 0 0 / 70%
 .titular{
 	color: #fff;
 	text-align: center;
-	margin-top: 235px;
+	margin-top: 280px;
 
 
 }
@@ -118,7 +118,17 @@ h3,p{
 	color: #0043ffd6;
 }
 
-
+.ir-arriba {
+	
+	padding:12px;
+	background:#0043ff;
+	font-size:18px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
 
 
 
